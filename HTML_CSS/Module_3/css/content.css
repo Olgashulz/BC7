@@ -8,7 +8,9 @@
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 14px;
-
+}
+.content{
+    font-size: 0;
 }
 .title_header {
     padding:0 160px 100px;
@@ -28,7 +30,7 @@
     display: inline-block;
     width: 420px;
     vertical-align: top;
-    margin-right: 56px;
+    margin-right: 60px;
     text-align: left;
     color: #626262;
 }
@@ -65,6 +67,6 @@
     font-size: 20px;
     color: #626262;
 }
-.blue{
+.blue:hover{
     color: #03a9f4;
 }
