@@ -1,0 +1,43 @@
+.card-news {
+    display: inline-block;
+    width: 350px;
+    float: left;
+    margin: 0 30px 13px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-news:last-child{
+    margin-right: 0;
+}
+.img-news{
+    height: 260px;
+}
+h4{
+    font-size: 18px;
+    color: #555252;
+    text-transform: none;
+    font-weight: 600;
+
+}
+h4::after {
+    content: '';
+    display: block;
+    height: 2.5px;
+    width: 135px;
+    background-color: #1abc9c;
+    margin: 14px 0 30px 0;
+   }
+.text{
+    font-size: 14px;
+    color: #777575;
+    text-transform: none;
+    margin-bottom: 14px;
+}
+.btn{
+    padding: 18px 40px 18px 40px;
+    margin-bottom: 70px;
+    border: none;
+    background-color: #1abc9c;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: 300;
+}
