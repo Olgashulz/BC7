@@ -1,0 +1,38 @@
+.wrapper-header{
+    background-size: cover;
+    text-transform: uppercase;
+    box-sizing:border-box;
+    width: 1110px;
+    margin: 35px 245px 30px;
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    float: left;
+    font-weight: 300;
+}
+.logo:first-letter{
+    color: #1abc9c;
+    font-weight: 700;
+}
+.link{
+    display: inline-block;
+    font-size: 11px;
+    margin-left: 30px;
+ }
+.nav-link:last-child{
+    margin-right: 0;
+}
+.nav-link:hover{
+    color: #1abc9c;
+}
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.nav{
+    float: right;
+}
