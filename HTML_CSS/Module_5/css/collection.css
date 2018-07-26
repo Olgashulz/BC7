@@ -15,6 +15,7 @@
     font-weight: bolder;
     text-transform: uppercase;
     padding-top: 100px;
+    margin-bottom:  100px;
 }
 .title-collection::after{
     content: '';
@@ -22,7 +23,7 @@
     height: 5px;
     width: 165px;
     background-color: #1abc9c;
-    margin: 20px auto 100px;}
+    margin: 20px auto 0;}
 
 .card-product{
     float: left;
