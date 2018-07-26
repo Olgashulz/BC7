@@ -1,4 +1,4 @@
-.section-collectoin{
+.section-collection{
     width: 1110px;
     margin: 0 245px;
 
@@ -25,7 +25,6 @@
     margin: 20px auto 100px;}
 
 .card-product{
-    display: inline-block;
     float: left;
     margin: 0 30px 30px 0;
     color: #ffffff;
@@ -43,24 +42,25 @@
     width: 255px;
     float: left;
 }
+
 .product{
     background-color: #323232;
     padding: 14px 0 14px 14px;
     width: 200px;
     float: left;
-
 }
+
 .price{
     background-color: #8c8c8c;
     padding: 14px 0 14px 14px;
     width: 55px;
-    float: right;}
+    float: right;
+}
 
 .btn-little{
     width: 50px;
     display: inline-block;
     float: left;
-
 }
 .btn{
     height: 50px;
@@ -69,15 +69,15 @@
     border: 2px solid #ffffff;
     text-transform: uppercase;
     font-size: 14px;
-
 }
+
 .btn-centre{
     margin-left: 10px;
     margin-right: 10px;
 }
 .background-grey{
     width: 235px;
-    background-color: #737373;
+    background-color: rgba(115, 115, 115, 0.5);
     padding: 70px 27px;
     margin: auto;
     position: absolute;
@@ -85,30 +85,37 @@
     left: 50%;
     transform: translate(-50%, -60%);
     opacity: 0;
-}
+ }
+
 .btn-grey{
-    background-image: url('../img/4.png');
+    background-image: url('../image/buy.png');
     background-repeat: no-repeat;
     background-position: 13px 5px;
     padding-left: 60px;
-    padding-right: 18px;
+    padding-right: 19px;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 14px;
 }
+
 .background-grey:hover {
-    opacity: 0.7;
+    opacity: 1;
 }
+
 .card-product:hover .price {
     background-color: rgba(26, 188, 156, 0.6);
 }
+
 .card-product:hover .product {
     background-color: rgba(26, 188, 156, 0.9);
 }
+
 .btn-little:hover {
     background-color: #1abc9c;
+    border: none;
 }
+
 .btn-grey:hover {
     background-color: #323232;
-
+    border: none;
 }
