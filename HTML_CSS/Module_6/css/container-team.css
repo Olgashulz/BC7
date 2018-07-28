@@ -1,0 +1,77 @@
+.p-team{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: none;
+    padding: 0 20px 92px 80px;
+}
+.team{
+    width: 380px;
+    height: 470px;
+    margin-bottom: 30px;
+}
+
+.card-team{
+    position: relative;
+    width: 380px;
+    margin-right: 30px;
+}
+
+.social{
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(rgba(243, 129, 129, 0.7), rgba(252, 227, 138, 0.7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+
+.social-link {
+    display: inline-block;
+    background-color: #fce38a;
+    width: 55px;
+    height: 55px;
+    border: none;
+    margin-right: 1px;
+    padding: 17px;
+}
+
+.social-link:hover {
+    background-color: #95e1d3;
+}
+
+.social:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0 0 rgba(149, 225, 211, 1);
+    transition: 1s;
+    opacity: 1;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.position{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: #999999;
+    text-transform: none;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+}

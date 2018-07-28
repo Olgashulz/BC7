@@ -1,0 +1,92 @@
+.p-title{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+   }
+.title::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color:#f38181;
+    margin: 40px auto 60px;}
+
+.menu-link::before {
+    content: '';
+    display: inline-block;;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: baseline;
+    margin-right: 25px;
+    margin-left: 30px;
+}
+
+.photo::before {
+background-image: url("../img/ALARM.png");
+}
+
+.line::before{
+    background-image: url("../img/LINE GRAPH.png");
+}
+
+.computer::before{
+    background-image: url("../img/COMPUTER _ OK.png");
+}
+
+.book::before{
+    background-image: url("../img/BOOK 2.png");
+}
+
+.home::before{
+    background-image: url("../img/HOME.png");
+}
+
+.image::before{
+    background-image: url("../img/IMAGE.png");
+}
+
+.menu-link{
+      width: 360px;
+    margin-bottom: 90px;
+    position: relative;
+    margin-right: 60px;
+}
+
+.menu-link:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.p-projects{
+    margin-left: 88px;
+    margin-top: 0;
+    position: absolute;
+    top: 25px;
+    color: #999999;
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.menu-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
