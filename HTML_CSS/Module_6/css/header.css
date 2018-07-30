@@ -5,23 +5,25 @@
     width: 1200px;
     margin: 30px 360px 10px;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
-
 }
+
 .logo{
     font-size: 30px;
     font-weight: 700;
     color: #95e1d3;
     font-family: 'Montserrat', sans-serif;
     text-transform: none;
-
 }
+
 .nav-list{
     display: flex;
     margin-bottom: 110px;
 }
+
 .nav-link{
     color: #95e1d3;
     font-size: 14px;
@@ -30,6 +32,7 @@
     margin-right: 55px;
     display: inline-block;
 }
+
 .nav-link:hover {
     color: #f38181;
     border-bottom: 3px solid #f38181;

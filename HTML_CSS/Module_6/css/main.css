@@ -5,17 +5,20 @@
     text-transform: none;
     margin-bottom: 20px;
 }
+
 .title{
     font-size: 30px;
     text-align: center;
-   }
+}
+
 .title::after{
     content: '';
     display: block;
     height: 3px;
     width: 60px;
     background-color:#f38181;
-    margin: 40px auto 60px;}
+    margin: 40px auto 60px;
+}
 
 .menu-link::before {
     content: '';

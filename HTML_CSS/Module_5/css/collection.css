@@ -1,12 +1,13 @@
 .section-collection{
     width: 1110px;
     margin: 0 245px;
-
 }
+
 .wrapper-collection{
     background-color: #e9f0fd;;
     width: 100%;
 }
+
 .title-collection{
     color: #515151;
     text-align: center;
@@ -17,13 +18,15 @@
     padding-top: 100px;
     margin-bottom:  100px;
 }
+
 .title-collection::after{
     content: '';
     display: block;
     height: 5px;
     width: 165px;
     background-color: #1abc9c;
-    margin: 20px auto 0;}
+    margin: 20px auto 0;
+}
 
 .card-product{
     float: left;
@@ -35,9 +38,11 @@
     font-weight: 900;
     position: relative;
 }
+
 .margin{
     margin-right: 0;
 }
+
 .img-product{
     height: 280px;
     width: 255px;
@@ -63,6 +68,7 @@
     display: inline-block;
     float: left;
 }
+
 .btn{
     height: 50px;
     margin-bottom: 10px;
@@ -76,6 +82,7 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .background-grey{
     width: 235px;
     background-color: rgba(115, 115, 115, 0.5);
