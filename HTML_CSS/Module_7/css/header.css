@@ -1,0 +1,32 @@
+.wrapper-header{
+    width: 100%;
+}
+.container-header{
+    width: 935px;
+    margin: auto;
+    padding: 35px 0 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-family: WisdomScriptAJ, cursive;
+    font-size: 26px;
+    color: var(--main-color);
+}
+
+.menu-item{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     text-transform: uppercase;
+     display: inline-block;
+     margin-right: 40px;
+ }
+a:hover {
+    color: var(--main-color);
+}
+
+.menu-item:last-child{
+    margin-right: 0;
+}

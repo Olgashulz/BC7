@@ -1,0 +1,32 @@
+@import "reset.css";
+@import "header.css";
+@import "services.css";
+@import "feedback.css";
+
+@font-face {
+    font-family: 'WisdomScriptAJ';
+    src: url("../fonts/WisdomScriptAJ.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/MontserratRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto slab';
+    src: url("../fonts/RobotoSlab-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Droid Sans';
+    src: url("../fonts/DroidSans.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --main-color: #fed136;
+}
