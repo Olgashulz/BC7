@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="-136">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -119,8 +119,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1945" />
-    <option name="height" value="1105" />
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../office work/bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Module_6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -212,16 +214,16 @@
       <workItem from="1532702361924" duration="456000" />
       <workItem from="1532979249505" duration="1451000" />
       <workItem from="1533111945968" duration="1316000" />
-      <workItem from="1533113340832" duration="3503000" />
+      <workItem from="1533113340832" duration="4112000" />
+      <workItem from="1533186609316" duration="60000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97666000" />
+    <option name="totallyTimeSpent" value="98335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20377605" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -415,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="-136">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="48" />
         </state>
       </provider>
     </entry>

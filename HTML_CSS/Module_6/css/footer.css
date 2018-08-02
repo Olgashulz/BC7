@@ -25,6 +25,7 @@ input[type="email"] {
     font-size: 15px;
     border:#e5e5e5 solid 2px ;
     border-right: none;
+
 }
 
 input[type="submit"] {
@@ -39,5 +40,8 @@ input[type="submit"] {
     text-transform: uppercase;
     border: none;
     margin-top: 10px;
-}
 
+}
+form{
+    font-size: 0;
+}

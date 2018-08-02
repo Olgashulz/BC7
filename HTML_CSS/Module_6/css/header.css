@@ -3,10 +3,11 @@
     text-transform: uppercase;
     box-sizing:border-box;
     width: 1200px;
-    margin: 30px 360px 10px;
+    margin: auto;
 }
 
 .header{
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
 }

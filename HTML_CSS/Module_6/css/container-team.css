@@ -60,6 +60,7 @@
     font-weight: 400;
     font-size: 14px;
     display: block;
+    padding-top: 20px;
 }
 
 .position{
@@ -77,4 +78,9 @@
 .container-card{
     display: flex;
     flex-direction: row;
+}
+fieldset{
+    /*border-color: transparent;*/
+    border-width: 0;
+    padding: 20px;
 }
