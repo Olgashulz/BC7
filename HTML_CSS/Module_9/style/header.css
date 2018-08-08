@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.header-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../img/Vector Smart Object.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    padding-top: 1.25rem;
+    color: #ffffff;
+}
+
+.fluid{
+    max-width: 1000px;
+}
+
+.header{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-menu {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.login-items{
+    display: inline-block;
+    padding: 0.62rem 1.25rem;
+    border: 2px solid transparent;
+    font-size: 14px;
+}
+
+.login-items:hover{
+    border: #ffffff 2px solid;
+    border-radius: 20px;
+}
+
+.header-title{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 3.5rem;
+    text-align: center;
+}
+
+.find-header{
+    font-size: 14px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    padding: 0.81rem 1.56rem;
+    color: #ffffff;
+}
+
+.header-btn{
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media(min-width: 768px) {
+    .login-menu {
+        margin-bottom: 150px;
+    }
+    .logo {
+        margin-bottom: 150px;
+    }
+.header-title{
+    margin-bottom: 40px;
+    font-size: 52px;
+}
+.subtitle{
+    margin-bottom: 35px;
+}
+}
