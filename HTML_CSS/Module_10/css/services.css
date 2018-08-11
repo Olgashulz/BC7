@@ -1,0 +1,104 @@
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+.container-services__subtitle{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 20px;
+    display: block;
+    padding-top: 50px;
+}
+.container-services__title{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-services__title::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color:#f38181;
+    margin: 40px auto 60px;
+}
+.projects-menu__item::before {
+    content: '';
+    display: inline-block;;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: baseline;
+    margin-right: 25px;
+    margin-left: 30px;
+}
+.photo::before {
+    background-image: url("../image/ALARM.png");
+    fill: rgb(149, 225, 211);
+}
+.line::before{
+    background-image: url("../image/LINE GRAPH.png");
+}
+.computer::before{
+    background-image: url("../image/COMPUTER _ OK.png");
+}
+.book::before{
+    background-image: url("../image/BOOK 2.png");
+}
+.home::before{
+    background-image: url("../image/HOME.png");
+}
+.image::before{
+    background-image: url("../image/IMAGE.png");
+}
+.projects-menu__item{
+    width: 350px;
+    margin-bottom: 90px;
+    position: relative;
+    margin-right: 50px;
+}
+.projects-menu__item:nth-child(3n+3) {
+    margin-right: 0;
+}
+.projects{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.projects-text{
+    margin-left: 88px;
+    margin-top: 0;
+    position: absolute;
+    top: 25px;
+    color: #999999;
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.projects-menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+.projects-menu__link{
+    position: absolute;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
