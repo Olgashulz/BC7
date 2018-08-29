@@ -1,0 +1,88 @@
+//$colors:(
+//  header-color: #ffffff,
+//  hover-header: #fce38a,
+//  hover-servises:#f38181,
+//  text-grey: #999999,
+//);
+
+$header-color: #ffffff;
+$hover-header: #fce38a;
+$hover-servises:#f38181;
+$text-grey: #999999;
+$hover-header: #fce38a;
+
+%Montserrat-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+%Montserrat-norm{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+%Roboto-italic{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+%Kaushan{
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+
+%container-services__title:after{
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  background-color: #f38181;
+  margin: 40px auto 60px;
+}
+%svg-img {
+  fill: #f38181;
+  cursor: pointer;
+  background-position: 50%;
+  width: 40px;
+  height: 40px;
+}
+%container-social__link {
+  display: inline-block;
+  background-color: #fce38a;
+  width: 55px;
+  height: 55px;
+  border: none;
+  margin-right: 1px;
+  padding: 12px;
+}
+%projects-menu__item:before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  vertical-align: baseline;
+  margin-right: 25px;
+  margin-left: 30px;
+}
+%wrapper{
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 159, 137, 0.8)), to(rgba(255, 247, 145, 0.8))), url("../img/bg@2x-min.jpg");
+  background-image: -webkit-linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8)), url("../img/bg@2x-min.jpg");
+  background-image: -o-linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8)), url("../img/bg@2x-min.jpg");
+  background-image: linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8)), url("../img/bg@2x-min.jpg");
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+%nav__item--active{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  @extend %Montserrat-norm;
+  text-transform: uppercase;
+
+}
