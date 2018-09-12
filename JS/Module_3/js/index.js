@@ -46,8 +46,6 @@ addLogin('Zod'); // 'Ошибка! Логин должен быть от 4 до 
 addLogin('jqueryisextremelyfast'); // 'Ошибка! Логин должен быть от 4 до 16 символов'*!/!*!/*/
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
 const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
 
 
@@ -58,13 +56,10 @@ const isLoginValid = function (login) {
         return false;
     }
 };
-console.log(isLoginValid('Ajax'));
+/*console.log(isLoginValid('Ajax'));
 console.log(isLoginValid('robotGoogles'));
 console.log(isLoginValid('Zod'));
-console.log(isLoginValid('jqueryisextremelyfast'));
-
-
-
+console.log(isLoginValid('jqueryisextremelyfast'));*/
 
 const isLoginUnique = function (allLogins, login) {
     let result;
@@ -75,33 +70,29 @@ const isLoginUnique = function (allLogins, login) {
     }
 };
 
-console.log(isLoginUnique(logins, 'Ajax'));
+/*console.log(isLoginUnique(logins, 'Ajax'));
 console.log(isLoginUnique(logins, 'robotGoogles'));
 console.log(isLoginUnique(logins, 'Zod'));
-console.log(isLoginUnique(logins, 'jqueryisextremelyfast'));
-console.log(logins);
+console.log(isLoginUnique(logins, 'jqueryisextremelyfast'));*/
 
-
-
-/*const addLogin = function (login) {
+const addLogin = function (login) {
     if (isLoginValid(login)) {
-        if (isLoginUnique(allLogins, login)) {
+        if (isLoginUnique(logins, login)) {
             logins.push(login);
-            return 'Логин успешно добавлен!';
+            console.log('Логин успешно добавлен!');
         } else {
-            return 'Такой логин уже используется!';
+            console.log('Такой логин уже используется!');
         }
-
     } else {
         console.log('Ошибка! Логин должен быть от 4 до 16 символов');
-    } return logins;
+    }
 };
-
 
 // Вызовы функции для проверки
 addLogin('Ajax'); // 'Логин успешно добавлен!'
 addLogin('robotGoogles'); // 'Такой логин уже используется!'
 addLogin('Zod'); // 'Ошибка! Логин должен быть от 4 до 16 символов'
 addLogin('jqueryisextremelyfast'); // 'Ошибка! Логин должен быть от 4 до 16 символов'*!/*/
+console.log(logins);
 
 
