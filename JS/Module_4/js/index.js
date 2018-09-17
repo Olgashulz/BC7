@@ -1,4 +1,3 @@
-
 /*
   Создайте скрипт кассира, который получает список продуктов и деньги,
   подсчитывает общую стоимость продуктов, и в зависимости от того хватает
@@ -6,13 +5,13 @@
 */
 
 /* Есть база данных товаров, в формате "имя-товара":"цена за одну единицу" */
-const products = {
+/*const products = {
     bread: 10,
     milk: 15,
     apples: 20,
     chicken: 50,
     cheese: 40,
-};
+};*/
 
 /*
   Необходимо создать функцию-конструктор Cashier.
@@ -42,21 +41,82 @@ const products = {
 
     - reset() - метод, сбрасывает поле customerMoney 0.
 */
-
-function Cashier(name, productDatabase) {
-
-
-
-
-}
-
-/* Заказ пользователя хранится в виде объекта следующего формата. "имя-продукта":"количество-единиц" */
+const products = {
+    bread: 10,
+    milk: 15,
+    apples: 20,
+    chicken: 50,
+    cheese: 40,
+};
 const order = {
     bread: 2,
     milk: 2,
     apples: 1,
     cheese: 1
 };
+
+function Cashier(name, productDatabase, countTotalPrice, customerMoney = 0, countChange) {
+    this.name = name,
+        this.productDatabase = productDatabase,
+        this.countTotalPrice = countTotalPrice,
+        this.customerMoney = customerMoney,
+        this.countChange = countChange;
+
+
+    this.countTotalPrice = function (order) {
+        let keysOrder = Object.keys(order);
+        let amountForPosition = keysOrder.map(function (el) {
+            return productDatabase[el] * order[el];
+        });
+
+        return amountForPosition.reduce(function (acc, el) {
+            return acc + el;
+        }, 0);
+    },
+
+    this.getCustomerMoney = function (value) {
+        this.customerMoney = value;
+    },
+        this.countChange = function () {
+            if (this.customerMoney > this.countTotalPrice(order)) {
+                this.changeAmount = this.customerMoney - this.countTotalPrice(order);
+                return this.changeAmount;
+            }
+            return null;
+        },
+        this.onSuccess = function () {
+            if (this.changeAmount > 0) {
+                console.log(`Спасибо за покупку, Ваша сдача ${this.changeAmount}`);
+            } else if (this.changeAmount < 0) {
+                this.onError();
+            }
+            else {
+                console.log(`Спасибо за покупку.`)
+            }
+        };
+    this.onError = function () {
+        console.log(`Очень жаль, вам не хватает денег на покупки`);
+    },
+        this.reset = function () {
+            this.customerMoney = 0;
+            this.countTotalPrice = 0;
+            this.countChange = 0;
+        };
+};
+
+
+
+/*const mango = new Cashier('Mango', products);
+console.log(mango.name); // Mango
+console.log(mango.productDatabase); // ссылка на базу данных продуктов (объект products)
+console.log(mango.customerMoney); // 0
+const totalPrice = mango.countTotalPrice(order);
+console.log(totalPrice); // 110
+mango.getCustomerMoney(300);
+console.log(mango.customerMoney);*/
+
+/* Заказ пользователя хранится в виде объекта следующего формата. "имя-продукта":"количество-единиц" */
+
 
 /* Пример использования */
 const mango = new Cashier('Mango', products);
@@ -86,7 +146,7 @@ const change = mango.countChange();
 console.log(change); // 190
 
 // Проверяем результат подсчета денег
-if(change !== null) {
+if (change !== null) {
     // При успешном обслуживании вызываем метод onSuccess
     mango.onSuccess(change); // Спасибо за покупку, ваша сдача 190
 } else {
