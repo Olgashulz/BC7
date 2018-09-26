@@ -106,9 +106,6 @@ function pauseTimer() {
     clearInterval(id);
     isActive = false;
     document.querySelector('.js-start').textContent='Continue';
-
-
-
 }
 
 
@@ -134,20 +131,12 @@ function save() {
     ul.append(lap);
       }
 
-
-
-
-
 const startBtn = document.querySelector(".js-start").addEventListener('click', timerListener);
 const resetBtn = document.querySelector(".js-reset").addEventListener('click', reset);
 const lapBtn = document.querySelector(".js-take-lap").addEventListener('click', save);
 
 
 //console.log(getFormatTime(34534785348));
-
-//const startBtn = document.querySelector(".js-start").addEventListener('click', startTimer);
-/*const lapBtn = document.querySelector(".js-take-lap").addEventListener('click', save);
-
 
 
 /*

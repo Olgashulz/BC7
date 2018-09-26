@@ -1,0 +1,31 @@
+
+.stopwatch {
+    text-align: center;
+    margin-top: auto;
+}
+
+.btn {
+    border: grey 5px solid ;
+    padding: 25px 35px;
+    background-color: lightblue;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+}
+
+.time {
+    font-size: 50px;
+    font-weight: bold;
+    color: grey;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+    color: grey;
+    font-size: 30px;
+
+
+}
+

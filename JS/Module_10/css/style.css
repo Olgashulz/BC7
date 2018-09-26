@@ -1,0 +1,39 @@
+.table{
+    width: 1280px;
+    border: 1px solid grey;
+   }
+
+th{
+    color: indianred;
+}
+tr{
+    border: 1px solid grey;
+}
+td{
+    border: 1px solid grey;
+}
+.ulId{
+    list-style: none;
+}
+.get_userById{
+    margin: 30px auto 15px;
+}
+.btnUserById,.buttonAdd, .button4 {
+    background-color: lightblue;
+}
+.RemoveUserById{
+    background-color:  indianred;
+}
+
+.addUser{
+    margin-bottom: 15px;
+}
+.update{
+    margin-bottom: 15px;
+}
+.ulId{
+    color: limegreen;
+}
+.tableName{
+    padding-left: 300px;
+}

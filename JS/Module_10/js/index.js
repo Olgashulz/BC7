@@ -26,27 +26,139 @@
 "use strict";
 
 const getAllUsers = () => {
-    fetch('https://test-users-api.herokuapp.com/users/5ba247badc966c00142483b3')
-        .then(result => result.ok ? result.json() : null)
+    fetch('https://test-users-api.herokuapp.com/users/')
+        .then(response => response.ok ? response.json() : null)
+        .then(data => createList(data.data))
         //.then(data => console.log(data))
+        .catch(err => console.log(err))
+};
+
+let root = document.querySelector('#root');
+let form = document.querySelector('.get_userById')
+
+const createList = (arr) => {
+
+    let table = document.createElement('table');
+    table.classList.add('table');
+    let th = document.createElement('th');
+    th.textContent = "All Users";
+    th.classList.add('tableName')
+
+    arr.map(el => {
+        let tr = document.createElement('tr');
+        let id = document.createElement('td');
+        let name = document.createElement('td');
+        let age = document.createElement('td');
+
+        id.textContent = el.id;
+        name.textContent = el.name;
+        age.textContent = el.age;
+
+        table.append(tr);
+        tr.append(id);
+        tr.append(name);
+        tr.append(age);
+        root.append(table);
+
+    })
+};
+
+
+getAllUsers();
+
+
+let getUserById = () => {
+    event.preventDefault();
+    let id = document.querySelector('.userById').value;
+
+
+    fetch(`https://test-users-api.herokuapp.com/users/${id}`)
+        .then(response => response.ok ? response.json() : null)
         .then(data => {
-            //getUserById(data)
-            console.log(data)
+            // console.log(data);
+            byIdCreate(data.data);
         })
         .catch(err => console.log(err))
-}
-getAllUsers()
-/*
+};
 
-*!/const getUserById = (arr)=>{
-    Object.entries(arr).map(el => {
-        let idUs = document.getElementById(el.data.id)
-        console.log(idUs)
+document.querySelector('.button').addEventListener('click', getUserById);
+
+let byIdCreate =(arr) =>{
+    let input = document.querySelector('.get_userById');
+    let ul = document.createElement('ul');
+    ul.classList.add('ulId');
+
+    let li1 = document.createElement('li');
+    let li2 = document.createElement('li');
+    let li3 = document.createElement('li');
+    li1.textContent = `User id: ${arr.id}`;
+    li2.textContent = `User name: ${arr.name}`;
+    li3.textContent = `User age: ${arr.age}`;
+
+    input.after(ul);
+
+    ul.append(li1);
+    ul.append(li2);
+    ul.append(li3);
+
+};
+
+
+let removeUser = (id) => {
+    event.preventDefault();
+    let idus = document.querySelector('.id').value;
+
+    fetch(`https://test-users-api.herokuapp.com/users/${idus}`, {
+        method: 'DELETE',
+    }).then(response => response.ok ? response.json() : null)
+        .then(data => console.log(data))
+        .catch(error => console.log(error))
+};
+
+document.querySelector('.button2').addEventListener('click', removeUser);
+
+
+const addUser = (name, age) => {
+    event.preventDefault();
+    let userName = document.querySelector(".name").value;
+    let userAge = document.querySelector(".age").value;
+
+
+    fetch('https://test-users-api.herokuapp.com/users/', {
+        method: 'POST',
+        body: JSON.stringify({
+            name: userName,
+            age: userAge,
+        }),
+        headers: {
+            "Content-type": 'application/json',
+        }
     })
+        .then(result => result.ok ? result.json() : null)
+        .then(data => console.log(data))
+        .catch(error => console.log(error))
+};
+document.querySelector('.buttonAdd').addEventListener("click", addUser);
 
-}
 
-//getUserById();
-*/
+const updateUser = (id, user) => {
+    event.preventDefault();
+    let idUsers = document.querySelector('.updId').value;
+    let nameUs = document.querySelector('.nameUs').value;
+    let ageUs = document.querySelector('.ageUs').value;
+
+  fetch(`https://test-users-api.herokuapp.com/users/${idUsers}`, {
+         method: "PUT",
+         body: JSON.stringify({name: nameUs, age: ageUs}),
+        headers: {
+             'Content-Type': 'application/json'
+        },
+
+    }).then(result => result.ok ? result.json() : null)
+     //.then(data => console.log(data))
+    .catch(error => console.log(error))
+ };
+
+document.querySelector('.button4').addEventListener("click", updateUser);
 
 
