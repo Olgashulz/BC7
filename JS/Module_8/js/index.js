@@ -133,7 +133,7 @@ document.querySelector('.preview').addEventListener('click', Click);
 
 function Click(){
     imgFullView.setAttribute('src', event.target.dataset.fullview);
-    photos.forEachforEach(el => el.classList.contains('active') ? el.classList.remove('active') : el);
+    photos.forEach(el => el.classList.contains('active') ? el.classList.remove('active') : el);
     event.target.parentElement.classList.toggle('active');
 }
 /*

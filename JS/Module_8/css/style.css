@@ -22,6 +22,7 @@ width: 1280px;
     height: 130px;
     margin: auto;
 }
+
 .li{
     flex-direction: row;
 }
