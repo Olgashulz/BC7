@@ -1,0 +1,19 @@
+.modal{
+    max-width: 400px;
+    padding: 30px;
+    background-color: #437997;;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #000;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}

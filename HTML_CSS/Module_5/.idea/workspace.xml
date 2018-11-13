@@ -14,16 +14,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="-17">
+              <caret line="48" column="103" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="48" selection-end-column="103" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/footer.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -62,8 +62,8 @@
       <file leaf-file-name="collection.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/collection.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="221">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="110" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -103,9 +103,9 @@
         <option value="$PROJECT_DIR$/css/footer.css" />
         <option value="$PROJECT_DIR$/css/header.css" />
         <option value="$PROJECT_DIR$/css/section1.css" />
-        <option value="$PROJECT_DIR$/css/collection.css" />
         <option value="$PROJECT_DIR$/css/reset.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/collection.css" />
       </list>
     </option>
   </component>
@@ -156,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Module_6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -216,14 +216,16 @@
       <workItem from="1533111945968" duration="1316000" />
       <workItem from="1533113340832" duration="4112000" />
       <workItem from="1533186609316" duration="60000" />
+      <workItem from="1538459557379" duration="4276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98335000" />
+    <option name="totallyTimeSpent" value="102611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20377605" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -373,6 +375,13 @@
     <entry file="file://$PROJECT_DIR$/image/slide4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -396,15 +405,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/collection.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="221">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="110" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-17">
+          <caret line="48" column="103" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="48" selection-end-column="103" />
         </state>
       </provider>
     </entry>
@@ -412,13 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="48" />
         </state>
       </provider>
     </entry>

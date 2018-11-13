@@ -158,3 +158,39 @@ const lapBtn = document.querySelector(".js-take-lap").addEventListener('click', 
 
   Где parent* это существующий DOM-узел.
 */
+class Stopwatcher extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.timer = null;
+
+        this.state = {
+            seconds: 0,
+        };
+    }
+
+    componentDidMount() {
+        this.timer = setInterval(() => {
+            this.tick();
+        }, 1000);
+    }
+
+    tick() {
+        this.setState({
+            seconds: this.state.seconds + 1,
+        })
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timer);
+    }
+
+    render() {
+        return (
+            <h1>{this.state.seconds} Seconds</h1>
+    )
+    }
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<Stopwatcher />, rootElement);
