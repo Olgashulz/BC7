@@ -1,0 +1,7 @@
+.search_list{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+
+    padding-left: 0;
+}
