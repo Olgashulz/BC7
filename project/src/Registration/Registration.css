@@ -1,8 +1,0 @@
-.registranionForm{
-     display: flex;
-     flex-direction: column;
- }
-.registranionButton{
-    display: block;
-    margin: 3px;
-}

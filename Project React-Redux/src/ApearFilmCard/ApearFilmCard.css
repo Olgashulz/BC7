@@ -38,7 +38,7 @@
     width: 36%;
     position: absolute;
     top: 80px;
-    left: 10px;
+    left: 5px;
     border-radius: 10%;
     -webkit-box-shadow: 6px -4px 29px 0 rgba(255,255,255,1);
     -moz-box-shadow: 6px -4px 29px 0 rgba(255,255,255,1);
@@ -83,6 +83,7 @@
     font-size: 20px;
     color: dimgrey;
     font-family: 'Roboto', sans-serif;
+    padding-left: 25%;
 }
 .textApearFilm{
     font-family: 'Roboto', sans-serif;

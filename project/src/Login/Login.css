@@ -1,8 +1,0 @@
-.loginForm{
-    display: flex;
-    flex-direction: column;
-}
-.loginButton{
-    display: block;
-    margin: 3px;
-}
