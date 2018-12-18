@@ -23,9 +23,6 @@ function showIcon() {
 
 }
 
-/*setInterval(showIcon, 300);*/
-
-
 ///////////// Listener
 let id;
 let isActive = false;
@@ -53,7 +50,6 @@ function pauseInterval() {
 start.addEventListener('click', timerListener );
 
 //// counter
-
 let deadline = new Date(2018, 11, 21, 19, 0, 0,);
 console.log(deadline);
 
@@ -92,26 +88,8 @@ let box_days = document.createElement('div');
 let days = document.createElement('p');
 let timeRefDays = document.createElement('p');
 
-/*<audio id="myTune">
-<source src="WhiteChristmas.mp3">
-    <source src="WhiteChristmas.ogg">
-    </audio>
-
-    <button onclick="document.getElementById('myTune').play()">Play Music</button>
-<button onclick="document.getElementById('myTune').pause()">Pause Music</button>
-<button onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;">Stop Music</button>*/
-
 ///music
-
 let musicActive = false;
-/*let start = document.querySelector('.start');*/
-
-/*function play () {
-    musicActive = true;
-}
-function pause() {
-    musicActive=false;
-}*/
 
 function musicListener() {
     if (!musicActive) {
