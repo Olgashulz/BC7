@@ -24,10 +24,10 @@ function showIcon() {
 
 }
 
-/*setInterval(showIcon, 300);*/
+setInterval(showIcon, 300);
 
 
-///////////// Listener
+/*///////////// Listener
 let id;
 let isActive = false;
 let start = document.querySelector('.start');
@@ -51,7 +51,7 @@ function pauseInterval() {
     clearInterval(id);
     isActive = false;
 }
-start.addEventListener('click', timerListener );
+start.addEventListener('click', timerListener );*/
 
 //// counter
 
