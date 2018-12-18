@@ -16,18 +16,21 @@ body{
     background-attachment: fixed;*/
 }
 section{
-    position: absolute;
+/*    position: absolute;*/
    /* height: 100%;*/
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../grimace-388987_19201.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+/*    background-size: cover;*/
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 /*div.wrapper{
     width: calc(4*225px);
