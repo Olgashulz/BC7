@@ -15,6 +15,12 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /*div.wrapper{
     width: calc(4*225px);
     margin: 0 auto;
@@ -36,7 +42,7 @@ a:hover{transition: .2s; color: #FF5722;}*/
 }*/
 section hgroup{margin-top: -360px;}
 section p.numbers{font-size: 6em;}
-section p.strings{font-size: 2em;}
+section p.strings{font-size: 2.2rem;}
 section h1{font-size: 4.5em;}
 /* countdown styles */
 #countdown{
@@ -44,17 +50,19 @@ section h1{font-size: 4.5em;}
     justify-content: space-evenly;
     color: #353535;
     margin-bottom: 100px;
+    max-width: 850px;
 }
 #countdown p{
     width: 100%;
     display: inline-block;
     text-align: center;
+
 }
 .numbers{
     width: 100%;
     height: 85%;
 
-    background-color: rgba(228, 223, 225, 0.64);
+    background-color: rgba(228, 223, 225, 0.84);
     margin-top: -25px;
     padding-top: 100px;
 }
@@ -62,7 +70,8 @@ section h1{font-size: 4.5em;}
     width: 100%;
     height: auto;
     padding: 30px 0;
-    background-color: rgba(141, 75, 105, 0.66);
+/*    background-color: rgba(141, 75, 105, 0.66);*/
+    background-color: #542a2a;
     color: #FFFFFF;
 }
 .cd-box{
@@ -77,13 +86,16 @@ section h1{font-size: 4.5em;}
 }
 .title{
    display: block;
-    color: #d893a1;
+/*    color: #d893a1;*/
+    color: #cac8c2;
     text-align: center;
-    font-size: 73px;
+    font-size: 90px;
     font-family: 'Permanent Marker', cursive;
     text-shadow: 1px 1px 2px black;
-    margin: 50px 50px 0;
-
+    margin: 50px 50px 25px;
+}
+.avis{
+    color:#c10202;
 }
 .container_scales{
     display: flex;
@@ -104,7 +116,7 @@ section h1{font-size: 4.5em;}
     flex-wrap: wrap;
     width: 100%;
 }
-@keyframes show_icon {
+/*@keyframes show_icon {
     from {
         position: absolute;
         display: none;
@@ -129,7 +141,7 @@ section h1{font-size: 4.5em;}
         box-shadow: -1px -9px 15px 5px rgba(255, 255, 255, 0.75);
 
     }
-}
+}*/
 .icon{
     overflow: hidden;
    /* position: absolute;*/
@@ -154,7 +166,7 @@ section h1{font-size: 4.5em;}
     color: white;
     /*animation: showDiv 1s forwards;*/
 }
-.icon20{
+/*.icon20{
     animation: showDiv 1.1s forwards;
 
 }
@@ -214,12 +226,13 @@ section h1{font-size: 4.5em;}
 }
 .icon1{
     animation: showDiv 2.2s forwards;
-}
+}*/
 
 .cloud{
     width: 379px;
     height: 242px;
     margin-right: initial;
+    flex-grow: 5;
 /*    position: absolute;
     top: 673px;
     left: 599px;*/
@@ -232,12 +245,12 @@ section h1{font-size: 4.5em;}
 }
 .box{
     position: absolute;
-    top: 800px;
+    top: 450px;
     /*left: 750px;*/
     right: 100px;
 }
 
-audio{
-
+.start{
+    flex-grow: 0;
 }
 
