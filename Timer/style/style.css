@@ -6,16 +6,24 @@
 }
 body{
     font: normal 16px 'Roboto', sans-serif;
-    position: absolute;
+    /*position: absolute;
     height: 100%;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../grimace-388987_19201.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 section{
+    position: absolute;
+   /* height: 100%;*/
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../grimace-388987_19201.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -49,7 +57,7 @@ section h1{font-size: 4.5em;}
     display: flex;
     justify-content: space-evenly;
     color: #353535;
-    margin-bottom: 30px;
+    margin-bottom: 66px;
     max-width: 850px;
 }
 #countdown p{
