@@ -262,6 +262,12 @@ section h1{font-size: 4.5em;}
 }
 
 .start{
-    flex-grow: 0;
+   padding: 20px 50px;
+    border-radius: 48px;
+    background-color: #c10202;
+    font-size: 40px;
+    font-weight: 800;
+    color: #f6f6f4;
 }
+
 

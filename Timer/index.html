@@ -94,11 +94,27 @@
                 <div class="icon icon20" >
                     <img class="icon_png" alt="icon" src="img/icon20.png">
                 </div>-->
-    <audio class="start" autoplay="autoplay" src="bombacut.mp3" controls loop></audio>
+
+
+ <!--   <audio class="start" autoplay="autoplay" src="bombacut.mp3" controls loop></audio>-->
+
+
+<!--    <EMBED src="bombacut.mp3" width="300" height="50" autostart="false"> </EMBED>
+    -->
+
+        <audio id="myTune" loop>
+            <source src="bombacut.mp3">
+        </audio>
+
+        <button class="start">Start</button>
+        <!--<button onclick="document.getElementById('myTune').pause()">Pause Music</button>
+        <button onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;">Stop Music</button>-->
 
     <div class="cloud">
         <img class="icon_cloud" alt="icon" src="img/cloud-153992.svg">
     </div>
+
+
 
     <div id="root"></div>
 
@@ -122,6 +138,8 @@
             <p class="strings timeRefSeconds">Seconds</p>
         </div>
     </div>
+
+
 
 </section>
 <script src="js/index.js"></script>

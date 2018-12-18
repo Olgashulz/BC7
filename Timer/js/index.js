@@ -23,10 +23,10 @@ function showIcon() {
 
 }
 
-setInterval(showIcon, 300);
+/*setInterval(showIcon, 300);*/
 
 
-/*///////////// Listener
+///////////// Listener
 let id;
 let isActive = false;
 let start = document.querySelector('.start');
@@ -50,7 +50,7 @@ function pauseInterval() {
     clearInterval(id);
     isActive = false;
 }
-start.addEventListener('click', timerListener );*/
+start.addEventListener('click', timerListener );
 
 //// counter
 
@@ -92,4 +92,37 @@ let box_days = document.createElement('div');
 let days = document.createElement('p');
 let timeRefDays = document.createElement('p');
 
+/*<audio id="myTune">
+<source src="WhiteChristmas.mp3">
+    <source src="WhiteChristmas.ogg">
+    </audio>
 
+    <button onclick="document.getElementById('myTune').play()">Play Music</button>
+<button onclick="document.getElementById('myTune').pause()">Pause Music</button>
+<button onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;">Stop Music</button>*/
+
+///music
+
+let musicActive = false;
+/*let start = document.querySelector('.start');*/
+
+/*function play () {
+    musicActive = true;
+}
+function pause() {
+    musicActive=false;
+}*/
+
+function musicListener() {
+    if (!musicActive) {
+        document.getElementById('myTune').play();
+        start.textContent = `Stop`;
+        musicActive = true;
+
+    } else {
+        document.getElementById('myTune').pause();
+        musicActive = false;
+        start.textContent = `Start`;
+    }
+}
+start.addEventListener('click', musicListener );
