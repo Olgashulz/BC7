@@ -8,10 +8,9 @@ let boxImage =document.createElement('img');
 
 
 function showIcon() {
-    let id = items[Math.floor(Math.random()*items.length)];
-  /*  let id = Math.floor(Math.random() * 19);*/
+   /* let id = items[Math.floor(Math.random()*items.length)];
     console.log(id);
-
+*/
 
 /*    boxImage.setAttribute('src', `img/icon${id}.png`);*/
     boxImage.setAttribute('src', `img/icon1.png`);
