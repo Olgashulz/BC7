@@ -13,7 +13,7 @@ function showIcon() {
 */
 
 /*    boxImage.setAttribute('src', `img/icon${id}.png`);*/
-    boxImage.setAttribute('src', `img/icon1.png`);
+    boxImage.setAttribute('src', `img/icon21.png`);
     boxImage.setAttribute('alt', 'image');
 
     box.classList.add('box');
