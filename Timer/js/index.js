@@ -64,7 +64,7 @@ function countDown() {
     console.log(seconds);
     let  minutes = (Math.floor(timer/1000 / 60 % 60));
     console.log(minutes);
-    let hours = (Math.floor(timer/1000 / 60 / 24 % 24));
+    let hours = (Math.floor(timer/1000 / 60 / 60 % 24));
     console.log(hours);
     let days = (Math.floor(timer/1000 / 60 / 60/ 24));
     console.log(days);
