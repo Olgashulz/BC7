@@ -1,0 +1,84 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container_registration{
+    background-color: #dddddd;
+    padding: 35px 0;
+}
+
+.registration_form{
+    width: 600px;
+    margin: auto;
+    background-color: #69516b;
+    padding: 45px 40px 40px;
+    border-radius: 5px;
+}
+
+.registration_title {
+    font: normal 30px 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form_item{
+    font: normal 16px 'Arial', sans-serif;
+    color: white;
+    padding: 10px 14px 10px;
+    margin-bottom: 40px;
+    background-color: #69516b;
+    border: 1px solid #fff;
+}
+
+.name{
+    margin-right: 20px;
+}
+
+.name, .first_name{
+    width: 248px;
+}
+
+.email, .password{
+    width: 520px;
+}
+
+.input-placeholder {
+    position: relative;
+}
+
+.input-placeholder input:valid + .placeholder {
+    display: none;
+}
+.placeholder{
+    position: absolute;
+    pointer-events: none;
+    top: 12px;
+    left: 15px;
+    font: normal 16px 'Arial', sans-serif;
+    color: #b4a8b4;
+}
+
+.placeholder span {
+    color: #ed008c;
+}
+
+.user_fullname{
+    display: flex;
+}
+
+.form_send {
+    width: 520px;
+    background-color: #ed008c;
+    padding: 20px 0;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    font: bold 28px 'Arial', sans-serif;
+    letter-spacing: 4px;
+}
+

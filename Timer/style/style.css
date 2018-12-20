@@ -3,6 +3,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
 }
 
 body {
@@ -34,9 +35,9 @@ section p.strings {
     font-size: 2.2rem;
 }
 
-section h1 {
+/*section h1 {
     font-size: 4.5em;
-}
+}*/
 
 #countdown {
     display: flex;
@@ -104,10 +105,10 @@ section h1 {
     flex-grow: 5;
 }
 
-.icon_cloud {
+/*.icon_cloud {
     width: 379px;
     height: 242px;
-}
+}*/
 
 .box {
     position: absolute;
@@ -127,4 +128,18 @@ section h1 {
     box-shadow: 3px 6px 18px 1px rgb(171, 150, 150);
 }
 
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 50px;
+        color: cyan;
+    }
+/*    .start {
+        padding: 8px 30px;
+        font-size: 16px;
+        -webkit-box-shadow: 5px 6px 16px 1px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 5px 6px 16px 1px rgba(255, 255, 255, 1);
+        box-shadow: -2px -3px 9px 0 rgb(171, 150, 150);
+    }*/
+}
 
