@@ -75,7 +75,7 @@ section p.strings {
     display: block;
     color: #cac8c2;
     text-align: center;
-    font-size: 75px;
+    font-size: 70px;
     font-family: 'Permanent Marker', cursive;
     text-shadow: 1px 1px 2px black;
     margin: 50px 50px 25px;
@@ -102,15 +102,15 @@ section p.strings {
 }
 .box {
     position: absolute;
-    top: 480px;
+    top: 570px;
     right: 100px;
 }
 
 .start {
-    padding: 20px 50px;
+    padding: 10px 69px;
     border-radius: 14px;
     background-color: #c10202;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 800;
     color: #f6f6f4;
     -webkit-box-shadow: 5px 6px 16px 1px rgba(255, 255, 255, 1);
