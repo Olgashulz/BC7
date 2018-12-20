@@ -50,7 +50,7 @@ function pauseInterval() {
 start.addEventListener('click', timerListener );
 
 //// counter
-let deadline = new Date(2018, 11, 21, 19, 0, 0,);
+let deadline = new Date(2018, 11, 21, 18, 0, 0,);
 console.log(deadline);
 
 
