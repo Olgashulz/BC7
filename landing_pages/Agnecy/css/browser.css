@@ -1,0 +1,45 @@
+.browser{
+    background-image: url("../img/browser2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+
+}
+.browser__content{
+    padding: 75px 0 0 110px;
+    width: 60%;
+}
+.browser__title{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.browser_text{
+    color: #8492af;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.browser_item{
+    color: #5584ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    display: flex;
+}
+
+.list__checked{
+    width: 30px;
+    height: 30px;
+    margin: 5px 18px 0 0;
+    }
+.browser__list{
+    padding-bottom: 275px;
+}
