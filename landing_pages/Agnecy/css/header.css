@@ -12,6 +12,17 @@
     margin: auto;
 }
 .header {
+    min-width: 320px;
+    margin: 0 auto 146px;
+    padding: 15px 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: baseline;
+}
+
+
+/*.header {
     max-width: 1700px;
     margin: 0 auto 146px;
     padding: 60px 155px 0;
@@ -19,13 +30,23 @@
     flex-direction: row;
     justify-content: space-between;
     vertical-align: baseline;
+}*/
+.logo_img{
+    width: 100px;
 }
 .header__link {
+    width: 50px;
+    height: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+/*.header__link {
     width: 263px;
     height: 65px;
     vertical-align: top;
     display: inline-block;
-}
+}*/
 .header__nav {
     display: flex;
 }
